@@ -6,14 +6,14 @@
                     method="post"
                     ref="form" 
                     class="d-flex flex-column">
-            <v-text-field v-model="name" :rules="nameRules" label="Nom">
-            </v-text-field>
-            <v-text-field v-model="email" :rules="emailRules" label="Email">
-            </v-text-field>
-            <v-textarea v-model="message" :rules="messageRules" label="Message"></v-textarea>
-            <v-btn depressed @click="submitForm" class="mb-4">Envoyer</v-btn>
-            <v-alert type="success" v-if="sent">Merci pour votre message et a tres vite :)</v-alert>
-        </v-form>
+                <v-text-field v-model="name" :rules="nameRules" label="Nom">
+                </v-text-field>
+                <v-text-field v-model="email" :rules="emailRules" label="Email">
+                </v-text-field>
+                <v-textarea v-model="message" :rules="messageRules" label="Message"></v-textarea>
+                <v-btn depressed @click="submitForm" class="mb-4">Envoyer</v-btn>
+                <v-alert type="success" v-if="sent">Merci pour votre message et a tres vite :)</v-alert>
+            </v-form>
         </v-col>
     </v-container>
 </template>

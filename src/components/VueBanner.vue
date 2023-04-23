@@ -2,14 +2,14 @@
     <v-app>
       <v-container class="h-100">
         <v-row class="h-100 ma-1 md-0">
-          <v-col cols="6">
+          <v-col cols="12" md="6">
             <div class="d-flex justify-center align-center h-100">
               <div class="container-profile-img">
               <v-img src="../assets/img/Portrait.jpg" contain></v-img>
             </div> 
             </div>   
           </v-col>
-          <v-col cols="6" class="d-flex flex-column justify-center">
+          <v-col cols="12" md="6" class="d-flex flex-column justify-center">
             <div>
               <h5 class="brown--text text--darken-1 top">Hello, moi c'est Catherine</h5>
             <h1 class="white--text">Développeuse front-end VueJS</h1>
