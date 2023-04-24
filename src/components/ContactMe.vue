@@ -42,10 +42,9 @@
         },
         methods: {
             submitForm () {
-                this.$refs.form.validate();
                 let self = this;
 
-                if (this.name != '' && this.email != '' && this.message != '') {
+                if (this.$refs.form.validate()) {
                     let data = {
                         name: this.name,
                         email: this.email,
